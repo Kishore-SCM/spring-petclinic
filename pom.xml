@@ -22,7 +22,7 @@
 
 
         <!-- Java EE / Java SE dependencies -->
-        <tomcat.version>9.0.83</tomcat.version>
+        <tomcat.version>10.1.16</tomcat.version>
 
         <!-- Test -->
         <assertj.version>2.2.0</assertj.version>
@@ -357,7 +357,7 @@
             <plugin>
                 <groupId>org.apache.tomcat.maven</groupId>
                 <artifactId>tomcat7-maven-plugin</artifactId>
-                <version>3.8.7</version>
+                <version>2.2</version>
                 <configuration>
                     <server>tomcat-development-server</server>
                     <port>9966</port>
